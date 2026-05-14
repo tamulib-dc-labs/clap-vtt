@@ -1,0 +1,15 @@
+[project]
+name = "instrumentalist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "argparse>=1.4.0",
+    "librosa>=0.11.0",
+    "numpy>=2.4.4",
+    "transformers>=4.40.0",
+    "torch>=2.2.0",
+    "torchaudio>=2.2.0",
+    "soundfile>=0.12.1",
+]
