@@ -295,9 +295,9 @@ def main():
     if input_path.is_file():
         videos = [input_path]
     elif input_path.is_dir():
-        videos = sorted(input_path.glob("*.mp4"))
+        videos = sorted(input_path.rglob("*.mp4"))
         if not videos:
-            print(f"No .mp4 files found in {input_path}")
+            print(f"No .mp4 files found in {input_path} (searched recursively)")
             sys.exit(1)
     else:
         print(f"Input not found: {input_path}")
