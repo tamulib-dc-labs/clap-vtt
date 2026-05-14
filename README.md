@@ -1,4 +1,4 @@
-# Instrumentalist
+# Clap-Vtt
 
 Generate descriptive WebVTT caption files from audio or video recordings using [CLAP](https://github.com/LAION-AI/CLAP) (Contrastive Language-Audio Pretraining). Instead of transcribing speech, it classifies what is *happening* in the audio — instruments playing, crowd noise, announcer speech, silence — based on natural-language labels you define.
 

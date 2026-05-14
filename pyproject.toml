@@ -1,7 +1,7 @@
 [project]
-name = "instrumentalist"
+name = "clap-vtt"
 version = "0.1.0"
-description = "Add your description here"
+description = "Generate descriptive WebVTT caption files from audio or video recordings using [CLAP](https://github.com/LAION-AI/CLAP) (Contrastive Language-Audio Pretraining). Instead of transcribing speech, it classifies what is *happening* in the audio — instruments playing, crowd noise, announcer speech, silence — based on natural-language labels you define."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
